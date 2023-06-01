@@ -16,4 +16,6 @@ I uruchamiamy IPMI Over LAN
 
 ![image](https://github.com/noterago/IDRAC-FanControl/assets/120764107/e1fde2f7-19d8-4244-8512-cee112081973)
 
+
+
 Teraz wystarczy zalogować się do konolki i wywołac komende by uruchomić ręczne sterowanie: ipmitool -I lanplus -H Idrac-IP -U twoje-hasło -P slaw raw 0x30 0x30 0x01 0x00
