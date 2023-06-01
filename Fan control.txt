@@ -1,16 +1,16 @@
 ========================================================================================
 
- Enable ipmitool -I lanplus -H 192.168.0.116 -U root -P slaw raw 0x30 0x30 0x01 0x00
+ Enable ipmitool -I lanplus -H Drac-ip -U root -P hasło raw 0x30 0x30 0x01 0x00
 
- Disable ipmitool -I lanplus -H 192.168.0.116 -U root -P slaw raw 0x30 0x30 0x01 0x01
+ Disable ipmitool -I lanplus -H Drac-ip -U root -P hasło raw 0x30 0x30 0x01 0x01
 
- 20% ipmitool -I lanplus -H 192.168.0.116 -U root -P slaw raw 0x30 0x30 0x02 0xff 0x14
+ 20% ipmitool -I lanplus -H Drac-ip -U root -P hasło raw 0x30 0x30 0x02 0xff 0x14
 
- 30% ipmitool -I lanplus -H 192.168.0.116 -U root -P slaw raw 0x30 0x30 0x02 0xff 0x1e
+ 30% ipmitool -I lanplus -H Drac-ip -U root -P hasło raw 0x30 0x30 0x02 0xff 0x1e
 
- 50% ipmitool -I lanplus -H 192.168.0.116 -U root -P slaw raw 0x30 0x30 0x02 0xff 0x32
+ 50% ipmitool -I lanplus -H Drac-ip -U root -P hasło raw 0x30 0x30 0x02 0xff 0x32
 
- 100% ipmitool -I lanplus -H 192.168.0.116 -U root -P slaw raw 0x30 0x30 0x02 0xff 0x64
+ 100% ipmitool -I lanplus -H Drac-ip -U root -P hasło raw 0x30 0x30 0x02 0xff 0x64
 
 ========================================================================================
 
